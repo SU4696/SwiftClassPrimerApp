@@ -1,24 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrimerApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Suyeon Cho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUJ-j9-RkD">
+                                <rect key="frame" x="120" y="149" width="185" height="44"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="A01383194" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmB-mP-a9M">
+                                <rect key="frame" x="116" y="229" width="189" height="76"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Carrera: ITC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxp-TA-r8T">
+                                <rect key="frame" x="116" y="313" width="200" height="82"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="En estos dia quiero ir a viaje a lugar que puedo sentir la vibra de otoño o invierno." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxd-E8-hkB">
+                                <rect key="frame" x="20" y="464" width="374" height="184"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Eu-Hv-SIE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oxp-TA-r8T" secondAttribute="trailing" constant="201" id="2wD-md-G6l"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4eK-Yl-MMZ"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5rY-Bf-uiM"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="62X-nW-NTC"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7xN-g7-ZEX"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="9kH-Hh-FZH"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="BWn-p9-v9j"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="top" secondItem="Oxp-TA-r8T" secondAttribute="bottom" constant="36" id="D3d-b4-wSU"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IiM-uA-bMd"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="Oyt-aN-3Gr"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QAC-vU-gkv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pxd-E8-hkB" secondAttribute="bottom" constant="444" id="QFt-ga-q8g"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="top" secondItem="sUJ-j9-RkD" secondAttribute="bottom" constant="20" id="Rqx-1B-W12"/>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="abp-oW-Za9"/>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b3S-hj-rQ3"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJ2-Bd-iVh"/>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cme-ec-p4t"/>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eit-xg-ksG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DmB-mP-a9M" secondAttribute="trailing" constant="205" id="mXh-2Y-c0C"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n9C-s5-YAP"/>
+                            <constraint firstItem="Oxp-TA-r8T" firstAttribute="top" secondItem="DmB-mP-a9M" secondAttribute="bottom" constant="48" id="ofT-mG-WJE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pxd-E8-hkB" secondAttribute="trailing" constant="40" id="p2F-ih-nwb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sUJ-j9-RkD" secondAttribute="trailing" constant="108" id="pVT-Rj-xGE"/>
+                            <constraint firstItem="sUJ-j9-RkD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q2R-F1-wYS"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qNJ-iF-keM"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="syg-Xc-o02"/>
+                            <constraint firstItem="DmB-mP-a9M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uSQ-NI-tHe"/>
+                            <constraint firstItem="pxd-E8-hkB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xKD-6z-dmV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="44.927536231884062" y="67.633928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
